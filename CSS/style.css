@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+#navbar::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 40%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.3;
+}
+#navbar {
+  align-items: center;
+  display: flex;
+}
+#logo img {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  background-color: aquamarine;
+}
+
+#navbar ul {
+  /* padding : 23px 32px;. */
+  display: flex;
+  /* padding: 23px 23px;. */
+}
+#navbar ul li {
+  list-style: none;
+  font-size: 1.3rem;
+}
+#navbar ul li a {
+  padding: 10px 33px;
+  text-decoration: none;
+  background-color: #dbefef;
+  color: crimson;
+  display: block;
+  border-radius: 10px;
+  margin: 13px;
+}
+#navbar ul li a:hover {
+  color: black;
+  background-color: white;
+}
+#home {
+  display: flex;
+  flex-direction: column;
+  padding: 3px 200px;
+  height: 509px;
+  justify-content: center;
+  align-items: center;
+}
+#home::before {
+  content: "";
+  position: absolute;
+  background: url("../IMG/berries-2277_1920.jpg") no-repeat center center/cover;
+  height: 652.5px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: -1;
+  opacity: 5;
+}
+#home p {
+  color: #d8f36c;
+  text-align: center;
+}
+#services {
+  display: flex;
+}
+#servicescontainer::before {
+  content: "";
+  background: url("../IMG/macarons-2548827_1920.jpg") no-repeat center
+    center/cover;
+  opacity: 0.6;
+  height: 82.3%;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+}
+#services .box {
+  border: 2px solid red;
+  padding: 34px;
+  margin: 2px 55px;
+  border-radius: 28px;
+  background: darkgrey;
+  margin-bottom: 20px;
+}
+#services .box img {
+  height: 160px;
+  margin: auto;
+  display: block;
+}
+#services .box p {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-family: "MonteCarlo", cursive;
+}
+#clientsection {
+  position: relative;
+}
+#clientsection::before {
+  content: "";
+  position: absolute;
+  background: url("../IMG/newlogo.jpg") no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.3;
+}
+#clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clientitem {
+  padding: 34px;
+}
+#clients img {
+  height: 124px;
+}
+#contact {
+  position: relative;
+}
+#contact::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.7;
+  background: url("../IMG/contact-us-2993000_1920.jpg") no-repeat center
+    center/cover;
+}
+#contactbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 34px;
+}
+#contactbox input,
+#contactbox textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 9px;
+  font-size: 1.1rem;
+}
+#contactbox form {
+  width: 40%;
+}
+#contactbox label {
+  font-size: 1.3rem;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-family: "MonteCarlo", cursive;
+}
+footer {
+  background: black;
+  color: white;
+  padding: 9px 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.hprimarycentre {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-family: "MonteCarlo", cursive;
+  font-size: 2.3rem;
+  padding: 12px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.hprimary {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-family: "MonteCarlo", cursive;
+  font-size: 4.3rem;
+  padding: 12px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #f9d99f;
+}
+.hsecondary {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-family: "MonteCarlo", cursive;
+  font-size: 2.3rem;
+  padding: 12px;
+}
+.btn {
+  padding: 6px 20px;
+  border: 2px solid white;
+  background-color: brown;
+  color: white;
+  margin: 17px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.centre {
+  text-align: center;
+}
+#brand{
+    float: left;
+    margin-top: 116px;
+    margin-left: -108px;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
